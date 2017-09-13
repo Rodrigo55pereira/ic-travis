@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "6.1"
-  - "5.12.0"
   - "5.11.1"
+  - "5.12.0"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "a09dbf37-f547-4705-b9c9-a9ce8a433740"
+  app: ic-travis
