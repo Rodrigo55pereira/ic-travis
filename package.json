@@ -1,0 +1,22 @@
+{
+  "name": "ic-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rodrigo55pereira@bitbucket.org/rodrigo55pereira/ic-travis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/rodrigo55pereira/ic-travis#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "serve-static": "^1.12.4"
+  }
+}
